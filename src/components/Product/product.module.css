@@ -1,0 +1,21 @@
+.image_Preview {
+  display: flex;
+  justify-content: space-around;
+  max-width: 449px;
+  width: 100%;
+  overflow: auto;
+  padding: 10px;
+}
+.container_Image {
+  position: relative;
+}
+.image {
+  margin: 10px;
+}
+.close {
+  position: absolute;
+  right: 0;
+  font-size: 20px;
+  color: red;
+  cursor: pointer;
+}
